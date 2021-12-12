@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 builder: (context, state) {
                   if (state.counterValue == 0) {
                     return Text(
-                      'Broh!\nYou just started the app',
+                      'BIG ZERO',
                       style: Theme.of(context).textTheme.headline4,
                     );
                   }
